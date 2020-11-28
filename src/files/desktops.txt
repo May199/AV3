@@ -1,0 +1,5 @@
+i3	2	2500	false
+i3	4	4000	false
+i5	4	5500	true
+i7	8	7000	true
+	
