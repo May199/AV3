@@ -28,7 +28,7 @@ public class App {
 
                 computadorLista.add(new Desktop(nomeCPU, tamRam, valor, isAllinOne));
             }
-            while (scanDesktops.hasNext()){
+            while (scanNotebooks.hasNext()){
                 String nomeCPU = scanNotebooks.next();
                 int tamRam = scanNotebooks.nextInt();
                 double valor = scanNotebooks.nextDouble();
@@ -62,7 +62,7 @@ public class App {
                   desk.getNomeCPU() + " " +
                   desk.getTamRam() + " " +
                   desk.getValor() + " " +
-                  desk.getisAllinOne() + " " +
+                  desk.getIsAllinOne() + " " +
                   desk.calculaDesconto()+ "\n"
                 );
               }

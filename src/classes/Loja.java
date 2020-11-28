@@ -9,12 +9,13 @@ public class Loja {
     }
 
     public ArrayList<Computador> webCamAllinOne(){
+        
         ArrayList<Computador> auxLista = new ArrayList<Computador>();
 
         for(int i = 0; i < this.computadorLista.size(); i++){
             if(computadorLista.get(i) instanceof Desktop){
                 Desktop pcAllinOne = (Desktop)computadorLista.get(i);
-                if(pcAllinOne.getisAllinOne())
+                if(pcAllinOne.getIsAllinOne())
                     auxLista.add(pcAllinOne);
             }
             if(computadorLista.get(i) instanceof Notebook){

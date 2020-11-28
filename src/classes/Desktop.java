@@ -15,12 +15,11 @@ public class Desktop extends Computador {
             return getValor() * 0.1;
         }
     }
+    public boolean getIsAllinOne() {
+        return this.isAllinOne;
+      }
+      public void setIsAllinOne(boolean isAllinOne){
+        this.isAllinOne = isAllinOne;
+      }
 
-    public boolean getisAllinOne() {
-        return getisAllinOne();
-    }
-
-    public void setAllinOne(boolean allinOne) {
-        isAllinOne = allinOne;
-    }
 }
